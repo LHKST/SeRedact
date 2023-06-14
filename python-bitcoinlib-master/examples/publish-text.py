@@ -212,4 +212,4 @@ else:
     logging.debug('Sending publish tx, hex: %s' % b2x(signed_tx.serialize()))
     txid = proxy.sendrawtransaction(signed_tx)
     logging.info('Sent publish tx: %s' % b2lx(txid))
-logging.info('finish')
+
